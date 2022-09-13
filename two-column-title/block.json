@@ -1,0 +1,31 @@
+{
+	"apiVersion": 2,
+	"name": "realmdigital/two-column-title",
+	"version": "0.1.0",
+	"title": "Realmdigital Two Column Title Block",
+	"category": "realmdigital",
+	"attributes": {
+		"headingContent": {
+			"type": "string",
+			"default": "Who we are"
+		},
+		"blurb": {
+			"type": "string",
+			"default": "With over 21 years of experience, Realm Digital helps companies solve problems, unlock value and achieve their vision through consulting, design and development."
+		},
+		"headingTag":{
+			"type": "string",
+			"default": "h2"
+		},
+		"rightHeadingContent": {
+			"type": "string",
+			"default": "h2"
+		}
+	},
+	"description": "Realmdigital Two Column Title Block can be used in the about us page.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "realmdigital",
+	"editorScript": "file:index.js"
+}

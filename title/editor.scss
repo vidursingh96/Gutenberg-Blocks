@@ -1,0 +1,16 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+ .wp-block-realmdigital-animated-banner{
+    &.wp-block{
+        max-width: 100%;
+    } 
+    .container .row-wrap {
+        z-index: 20;
+    }
+    .block-editor-inner-blocks{
+        z-index: 21;
+    }
+ }

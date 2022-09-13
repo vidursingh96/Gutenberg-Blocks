@@ -1,0 +1,23 @@
+{
+	"apiVersion": 2,
+	"name": "realmdigital/banner",
+	"version": "0.1.0",
+	"title": "Realmdigital Banner Block",
+	"category": "realmdigital",
+	"attributes": {
+		"mediaURL": {
+			"type": "string",
+			"default": ""
+		},
+		"mediaAlt": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"description": "This can be used as the banner for the website Header banner",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "realmdigital",
+	"editorScript": "file:index.js"
+}

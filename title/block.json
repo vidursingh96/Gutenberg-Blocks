@@ -1,0 +1,26 @@
+{
+	"apiVersion": 2,
+	"name": "realmdigital/title",
+	"version": "0.1.0",
+	"title": "Realmdigital Title Block",
+	"category": "realmdigital",
+	"attributes": {
+		"headingContent": {
+			"type": "string",
+			"default": "Heading..."
+		},
+		"blurb": {
+			"type": "string"
+		},
+		"headingTag":{
+			"type": "string"
+		}
+	},
+	"description": "Realm Digital Title Block.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "realmdigital",
+	"editorScript": "file:index.js",
+	"editorStyle":"file:index.css"
+}

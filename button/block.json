@@ -1,0 +1,45 @@
+{
+	"apiVersion": 2,
+	"name": "realmdigital/button",
+	"version": "0.1.0",
+	"title": "Realmdigital Button Block",
+	"category": "realmdigital",
+	"attributes": {
+		"buttonText": {
+			"type": "string",
+			"source": "text",
+			"selector": "a"
+		},
+		"buttonLink": {
+			"type": "string",
+			"source": "attribute",
+			"selector": "a",
+        	"attribute": "href"
+		},
+		"buttonLinkType": {
+			"type": "string",
+			"source": "attribute",
+			"selector": "a",
+        	"attribute": "target",
+			"default":"_self"
+		},
+		"buttonType": {
+			"type": "string",
+			"default": "simple"
+		},
+		"hideInMobile":{
+			"type": "boolean",
+			"default": false
+		},
+		"hideInDesktop":{
+			"type": "boolean",
+			"default": false
+		}
+	},
+	"description": "Realm Digital Button Block can be use for the Simple Link or Yellow Button.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "realmdigital",
+	"editorScript": "file:index.js"
+}
